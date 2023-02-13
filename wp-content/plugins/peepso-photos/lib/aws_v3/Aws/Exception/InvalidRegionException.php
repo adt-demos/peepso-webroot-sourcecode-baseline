@@ -1,0 +1,11 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNEJ6VXQ2SmRTa21XRVNUdHlOc2VJZkhmVXZ1MTBvTFN5bHRxYlpkV3g4ZmhhUzMwRnkvYXRaS3djbkIzRndpTUNLWDNyQm5CamhFMTlQOXVkMy9BT2ttWWg3d1lDMHBMbXpTMjd4RE5CNnlDczhQdTRUeCtyMzIxamhpeGRUeTdEakg3YkJadXd3dFhlejd1NGE0aTZp*/
+namespace Aws\Exception;
+
+use Aws\HasMonitoringEventsTrait;
+use Aws\MonitoringEventsInterface;
+
+class InvalidRegionException extends \RuntimeException implements
+    MonitoringEventsInterface
+{
+    use HasMonitoringEventsTrait;
+}

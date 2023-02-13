@@ -1,0 +1,11 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNlBQUjF0eXlaVGtGMlQ1aXFzOWg4UVZMNnJ5dEplTVc0Ylc1NXRWRlk2QkVpd29lKzlDbS9wcVZGNEV0UENiVVMrT3ZveHlQaUpldkZmcUs4ZklEL0xWSFZGUjZqUlgxVWVHUkxHWTgrL2pOZi90di94Y1JPQ1pyMzJYNGdLODlkRlJpQjd0Yk5ON3lZNHp1TDZNaXRl*/
+namespace Aws\Exception;
+
+use Aws\HasMonitoringEventsTrait;
+use Aws\MonitoringEventsInterface;
+
+class UnresolvedApiException extends \RuntimeException implements
+    MonitoringEventsInterface
+{
+    use HasMonitoringEventsTrait;
+}

@@ -1,0 +1,8 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkN0duRWVtRFlkYnVvSU41U29HY1hEQmVoM3BnOVcycjE4Z216ZGlNclM5NjZPVGNyVTNtby9ORjFRMHVzUm5FQTU0ZmY4VGhKY2JGK0Znb1p5Zk5XRnJFTnVBeWRINTNudTNVbitGc0VuUStCdUt6Z09XY3N0ZEJaM2Vxd2Jleld3PQ==*/
+
+return array (
+  223 => 'ss',
+  962 => 'σ',
+  8204 => '',
+  8205 => '',
+);

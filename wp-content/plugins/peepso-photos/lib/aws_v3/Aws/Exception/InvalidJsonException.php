@@ -1,0 +1,11 @@
+<?php /*NWJjbDNsYng1QmhMczU4UHdsd3hjSjdhdFViYVdVTi84eFR5dEl2NlNkNE5IYldxYno0aWlHNEVNSEliKzVBRGd6YlE2Yjh3cWRiVFNqcFB6ZXpGRnhYL0E5R2VJSHp5czZxL205bVltWE9tT3VVZnE2OGkvSXBDamhUMmlRTzBuRTVlOXNxU2ZTY212cVVjM0kwS3JMbnVwR3N3YklyUytwSmJKMEF4R1NOTndKU2k3dzJLTVVvdTZSWmRjNXd1*/
+namespace Aws\Exception;
+
+use Aws\HasMonitoringEventsTrait;
+use Aws\MonitoringEventsInterface;
+
+class InvalidJsonException extends \RuntimeException implements
+    MonitoringEventsInterface
+{
+    use HasMonitoringEventsTrait;
+}
